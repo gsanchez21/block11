@@ -1,0 +1,142 @@
+@font-face {
+  font-family: Ger;
+  src: url(Geruduk-8MnXz.otf);
+}
+@font-face {
+  font-family: Matcha;
+  src: url(Matcha-EaLge.ttf);
+}
+@font-face {
+  font-family: Moral;
+  src: url(MoralistJameson-X3lj9.ttf);
+}
+
+body {
+  margin: 0;
+  background-image: url(orchid.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*background-color: rgb(232, 169, 169);
+  /*background-blend-mode: darken;
+  background-size: 100% 580px;*/
+  /*padding-bottom: 100%;
+  border: 18px solid black;*/
+}
+
+.pages {
+  font-size: 64pt;
+  font-family: Moral;
+  text-align: left;
+  margin: 0;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  /*background-color: rgba(141, 50, 50, 0.653);
+  border-bottom: solid 5px;*/
+}
+
+a:hover {
+  color: rgb(83, 93, 100);
+}
+
+.pages a.active {
+  border-bottom: 1px solid #555;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  text-align: left;
+  padding: 1px;
+}
+
+section {
+  padding-left: 20px;
+  margin: 0;
+  font-family: Ger;
+  font-size: 24pt;
+}
+
+p {
+  font-family: Moral;
+  font-size: 48pt;
+  text-align: center;
+}
+.section {
+  padding-top: 100px;
+}
+
+.hometitle {
+  font-family: Matcha;
+}
+.quote {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  padding: 0;
+  margin: 0;
+}
+
+.quotemiddle {
+  font-family: Moral;
+  font-size: 36px;
+  margin: 0;
+}
+
+img {
+  border-radius: 50%;
+  width: 100px;
+  position: relative;
+  left: 45%;
+}
+.project1{
+  padding: 50px 50px;
+  background-color: rgb(234, 225, 225);
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 50px;
+  box-shadow: 2px 5px;
+  }
+
+.para{
+  text-align: end;
+  font-size: 36pt;
+}
+
+.para1{
+  text-align: start;
+  font-size: 36pt;
+}
+.project2 {
+  padding: 50px 50px;
+  background-color: rgb(234, 225, 225);
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: right;
+  border-radius: 50px;
+  box-shadow: 2px 5px;
+}
+.project3 {
+  padding: 50px 50px;
+  border: solid;
+  background-color: rgb(234, 225, 225);
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 50px;
+  box-shadow: 2px 5px;
+}
+
+.aboutme{
+  font-family: Matcha;
+  font-size: 36pt;
+  margin-left: 0;
+  margin-right: 0;
+  background-image: url(crown.jpg); opacity: 0.8;
+  background-size: cover;
+  /*background-color: rgb(236, 212, 233);*/
+  padding: 100px;
+  border-radius: 70px;
+  box-shadow: 5px 5px;
+  text-align: justify;
+  /*background-blend-mode: darken;*/
+  /*z-index: 1;*/
+}
