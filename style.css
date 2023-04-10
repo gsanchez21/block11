@@ -11,41 +11,46 @@
   src: url(MoralistJameson-X3lj9.ttf);
 }
 
-body {
+@media (max-width:1280px),(min-width:none),
+(max-height:1050px), (min-height:none)
+{
+
+
+html {
   margin: 0;
   background-image: url(orchid.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  /*background-color: rgb(232, 169, 169);
-  /*background-blend-mode: darken;
-  background-size: 100% 580px;*/
-  /*padding-bottom: 100%;
-  border: 18px solid black;*/
+  background-size: 1280px;
+  background-attachment: fixed;
+  
 }
-
 .pages {
-  font-size: 64pt;
+  display: flex;;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(204, 87, 228);
+  width: fit-content;
+  margin: 10px;
+  padding: 25px;
+  border-radius: 50px;
+  box-shadow: 2px 7px 4px;
+  font-size: 42pt;
   font-family: Moral;
-  text-align: left;
-  margin: 0;
-  padding-left: 50px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  /*background-color: rgba(141, 50, 50, 0.653);
-  border-bottom: solid 5px;*/
+
+
 }
 
 a:hover {
   color: rgb(83, 93, 100);
+  text-decoration-line: underline;
 }
 
-.pages a.active {
+/*.pages a.active {
   border-bottom: 1px solid #555;
-}
+}*/
 
 a {
   text-decoration: none;
-  color: black;
+  color: rgb(250, 248, 248);
   text-align: left;
   padding: 1px;
 }
@@ -132,11 +137,10 @@ img {
   margin-right: 0;
   background-image: url(crown.jpg); opacity: 0.8;
   background-size: cover;
-  /*background-color: rgb(236, 212, 233);*/
   padding: 100px;
   border-radius: 70px;
   box-shadow: 5px 5px;
   text-align: justify;
-  /*background-blend-mode: darken;*/
-  /*z-index: 1;*/
+  
 }
+  }
